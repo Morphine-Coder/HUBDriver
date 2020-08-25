@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_asan"
+        android:title="@string/asancampus"/>
+
+    <item android:id="@+id/menu_cheonan"
+        android:title="@string/cheonancampus"/>
+
+    <item android:id="@+id/menu_onyangstation"
+        android:title="@string/onyangsation"/>
+
+    <item android:id="@+id/menu_asanoffice"
+        android:title="@string/asanoffice"/>
+
+    <item android:id="@+id/menu_northwest"
+        android:title="@string/northwest"/>
+
+    <item android:id="@+id/menu_southeast"
+        android:title="@string/southeast"/>
+
+</menu>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="line">
+        <item>@string/asancampus</item>
+        <item>@string/cheonancampus</item>
+        <item>@string/onyangsation</item>
+        <item>@string/asanoffice</item>
+        <item>@string/northwest</item>
+        <item>@string/southeast</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,22 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/app_color</item>
+        <item name="colorPrimaryDark">@color/app_color</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AnimationPopupStyle">
+        <item name="android:windowEnterAnimation">@anim/open</item>
+        <item name="android:windowExitAnimation">@anim/close</item>
+    </style>
+
+    <style name="NumberPickerStyle">
+        <item name="android:textColorPrimary">@color/text_color</item>
+        <item name="android:fontFamily">@font/nanumsquareroundr</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+</resources>

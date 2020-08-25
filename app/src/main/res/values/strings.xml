@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">HUBDriver</string>
+    <string name="setting">차량설정</string>
+    <string name="line">방면</string>
+    <string name="bus_number">차량번호</string>
+    <string name="time">시간</string>
+    <string name="qrcodetitle">QR코드 인식</string>
+    <string name="drive_start">QR코드 인식이 완료되었습니다."\n"차량운행을 시작해주세요.</string>
+    <string name="next_button">다음</string>
+    <string name="asancampus">아산캠퍼스</string>
+    <string name="cheonancampus">천안캠퍼스</string>
+    <string name="onyangsation">온양방향 (온앙온천)</string>
+    <string name="asanoffice">온양방향 (아산교육청)</string>
+    <string name="northwest">서북구</string>
+    <string name="southeast">동남구</string>
+    <string name="set_time">시간설정</string>
+    <string name="hint">차량 번호</string>
+    <string name="readqr">QR코드 인식</string>
+    <string name="car">호차</string>
+    <string name="set_car">호차선택</string>
+    <string name="missing_infomation">누락된 정보가 존재합니다.</string>
+</resources>
