@@ -19,4 +19,5 @@
     <string name="car">호차</string>
     <string name="set_car">호차선택</string>
     <string name="missing_infomation">누락된 정보가 존재합니다.</string>
+    <string name="hint_1"> 호차</string>
 </resources>

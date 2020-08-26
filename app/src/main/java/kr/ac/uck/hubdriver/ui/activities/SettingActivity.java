@@ -60,14 +60,6 @@ public class SettingActivity extends AppCompatActivity {
             timeDialog.show();
         });
 
-        binding.btnCar.setOnClickListener(view -> { // EditText 바꾸기
-            carDialog = new CarDialog(SettingActivity.this, car -> {
-                binding.tvCar.setText(car);
-            });
-            carDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
-            carDialog.show();
-        });
-
         binding.btnNext.setOnClickListener(view -> {
             nextActivity();
         });
@@ -75,13 +67,13 @@ public class SettingActivity extends AppCompatActivity {
 
     private void nextActivity(){
         if(!binding.tvLine.getText().toString().equals("") && !binding.editBusNumber.getText().toString().equals("")
-        && !binding.tvTime.getText().toString().equals("") && !binding.tvCar.getText().toString().equals("")){
+        && !binding.tvTime.getText().toString().equals("") && !binding.editCarNumber.getText().toString().equals("")){
             Log.d("TAG",binding.tvTime.getText().toString());
             Intent intent = new Intent(this,ReadQRActivity.class);
             intent.putExtra("line",binding.tvLine.getText().toString());
             intent.putExtra("busNumber",binding.editBusNumber.getText().toString());
             intent.putExtra("time",binding.tvTime.getText().toString());
-            intent.putExtra("car",binding.tvCar.getText().toString());
+            intent.putExtra("car",binding.editCarNumber.getText().toString());
             startActivity(intent);
         }
         else{

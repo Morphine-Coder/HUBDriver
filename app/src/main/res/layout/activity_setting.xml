@@ -305,20 +305,26 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                <TextView
-                    android:id="@+id/tv_car"
+                <EditText
+                    android:id="@+id/edit_carNumber"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text=""
-                    android:textSize="18sp"
-                    android:textColor="@color/text_color"
+                    android:ems="6"
+                    android:inputType="number"
                     android:lineSpacingExtra="3sp"
-                    tools:text="1호차"
+                    android:text=""
+                    android:textColor="@color/text_color"
+                    android:textSize="18sp"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:hint="@string/hint_1"
+                    android:textColorHint="@color/black"
                     android:fontFamily="@font/nanumsquareroundl"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
+
             </androidx.constraintlayout.widget.ConstraintLayout>
         </FrameLayout>
 
